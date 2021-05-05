@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const size = 123;
+const isBig = size >= 100;
+const msg = isBig ? '크다' : '작다';
+const values = [1, 2, 3];
+const values2 = [1, 2, 3];
+values.push('a');
+const data = [msg, size];
+data[0].substr(1);
+data[1].substr(1);
+console.log('typeof 123 =>', typeof 123);
+console.log('typeof "abc" =>', typeof "abc");
+console.log('typeof [1, 2, 3] =>', typeof [1, 2, 3]);
